@@ -38,5 +38,5 @@ steps:
 - script: python -m pip install --upgrade pip setuptools wheel --user
   displayName: 'Install tools'
 
-- script: pip install .
+- script: pip install . --user
   displayName: 'Install yubikey-manager'
